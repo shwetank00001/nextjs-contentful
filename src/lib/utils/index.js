@@ -13,11 +13,11 @@ export function formatDate(
   }
 }
 
-// Example usage:
+
 const validDateString = '2023-11-29'
 const formattedDate = formatDate(validDateString)
-console.log(formattedDate) // Output: November 29, 2023
+console.log(formattedDate) 
 
 const invalidDateString = '2023-02-30'
 const formattedInvalidDate = formatDate(invalidDateString)
-console.log(formattedInvalidDate) // Output: Invalid Date
+console.log(formattedInvalidDate) 

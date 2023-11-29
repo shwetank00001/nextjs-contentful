@@ -4,7 +4,7 @@ import React from 'react'
 const Layout = ({ children }) => {
   return (
     <>
-      <header className='bg-stone-100 p-8'>
+      <header className='bg-[#0f0f0f] p-8'>
         <nav className='container'>
           <ul className='flex gap-4'>
             <li>
@@ -29,10 +29,8 @@ const Layout = ({ children }) => {
 
       <main className='container p-8'>{children}</main>
 
-      <footer className='bg-stone-100 text-sm font-medium uppercase text-stone-400 px-8 py-4'>
-        <div className='container'>
-          <p>Footer</p>
-        </div>
+      <footer className='bg-[#0f0f0f] text-sm font-medium uppercase text-stone-400 px-8 py-4'>
+        <div className='container'>{/* <p>Footer</p> */}</div>
       </footer>
     </>
   )
