@@ -9,7 +9,7 @@ export function formatDate(
     return formattedDate
   } catch (error) {
     console.error('Error formatting date:', error.message)
-    return 'Invalid Date'
+    return 'Date atrribute here'
   }
 }
 
