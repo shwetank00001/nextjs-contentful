@@ -23,11 +23,11 @@ contentfulClient
     // Transform and push data to Algolia
     const records = entries.items.map(item => ({
       objectID: item.sys.id,
-      title: item.fields.Title, 
-      author: item.fields.Author, 
-      summary: item.fields.Summary,
-      coverImage: item.fields.CoverImage,
-      content: item.fields.Content
+      title: item.fields.title, 
+      author: item.fields.author, 
+      summary: item.fields.summary,
+      coverImage: item.fields.coverImage,
+      content: item.fields.content
     }))
 
     return algoliaIndex.saveObjects(records)

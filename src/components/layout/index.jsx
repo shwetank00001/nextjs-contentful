@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Search from '../Search'
 
 const Layout = ({ children }) => {
   return (
@@ -24,6 +25,7 @@ const Layout = ({ children }) => {
               </Link>
             </li>
           </ul>
+
         </nav>
       </header>
 
